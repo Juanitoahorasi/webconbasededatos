@@ -1,0 +1,37 @@
+
+/*menu*/
+.navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+ 
+.carousel-inner img { /*carrusel de fotos*/
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/* Título de redes sociales */
+h3 {
+  font-size: 25em;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+#suscripcion {
+  background-color: #f9f9f9; /* Color de fondo */
+  padding: 3rem 0; /* Espaciado vertical */
+}
+
+#suscripcion h3 {
+  color: #333; /* Color del texto */
+  margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Asegúrate de que esté detrás del contenido */
+}
